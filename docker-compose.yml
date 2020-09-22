@@ -15,7 +15,7 @@ services:
   teste-pgadmin-compose:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "isaacalmeidamax01@gmail.com"
+      PGADMIN_DEFAULT_EMAIL: "autenticacao@gmail.com"
       PGADMIN_DEFAULT_PASSWORD: "PgAdmin2019!"
     ports:
       - "16543:80"
